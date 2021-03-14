@@ -1,0 +1,497 @@
+html, body{
+    margin: 0;
+    padding: 0; 
+}
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+/* Headline Section */
+
+.headline{
+    background-color: blue;
+}
+
+.headline .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headline .container .headline-text{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.75rem;
+    color: white;
+}
+
+.headline .container .headline-media{
+    fill: white;
+}
+
+/* Navigation Section */
+.navigation{
+    width: 100%;
+    background: none;
+    position: absolute;
+}
+
+.navigation .container{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation .container .navbar-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-item{
+    text-decoration: none;
+    color: white;
+    margin-right: 1rem;
+    fill: white;
+}
+
+.navigation .container .navbar-auth{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Hero Sections */
+.hero{
+    max-height:  96vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .hero-content{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url('../image/cave-hero.jpg');
+    background-size: cover;
+}
+
+.hero .hero-bot-content{
+    height: 27vh;
+    display: flex;
+}
+
+.hero .hero-bot-content .hero-bot-content-1{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+    padding-left: 4rem;
+    margin: 0;
+    background: url('../image/cave-bot-hero-1.jpg');
+    color: white;
+    background-size: cover;
+}
+
+.hero .hero-bot-content .hero-bot-content-2{
+    height: 100%;
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+    padding-left: 4rem;
+    margin: 0;
+    background: url('../image/cave-bot-hero-2.jpg');
+    color: white;
+    background-size: cover;
+}
+
+.hero .hero-bot-content .hero-bot-content-3{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+    padding-left: 4rem;
+    margin: 0;
+    background: url('../image/cave-bot-hero-3jpg.jpg');
+    color: white;
+    background-size: cover;
+}
+
+.btn-hero{
+    background: none;
+    border-radius: 1rem;
+    border: 2px solid white;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-weight: 600;
+}
+
+/* Home Section */
+.home-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-section .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-section .container h1{
+    width: 50%;
+    text-align: center;
+}
+
+.home-section .container p{
+    width: 50%;
+    text-align: center;
+}
+
+/* About Section */
+.about-section{
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url('../image/cave-bot-hero-3jpg.jpg');
+    background-size: cover;
+}
+
+.about-section .container{
+    width: 40%x;
+    max-height:50vh;
+    text-decoration: none;
+    color: white;
+}
+
+.about-section .container a{
+    width: 40%;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.about-section .container p{
+    width: 40%;
+    color: white;
+    margin-bottom: 5rem;
+}
+
+#about-us-btn{
+    background-color: white;
+    border: 2px solid #446084;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: #446084;
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
+
+#shop-now-btn{
+    background-color: #446084;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+
+
+/* Card Section */
+.card-section{
+    padding: 4rem 0rem;
+}
+
+.card-section .container{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-section .container .card-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+
+.card-section .container .card-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+
+.card-section .container .card-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+
+/* Content Section */
+.content-section{
+    max-height: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-section .container-pic{
+    width: auto;
+    padding: 4rem 12rem;
+    background-color: #3d4755;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-section .container-content{
+    display: flex;
+    background-color: #a1acbc;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 12rem;
+}
+
+.content-section .container-content .content-box{
+    text-align: center;
+    width: 500px;
+}
+
+.batas{
+    width: 100%;
+    height: 2.5rem;
+}
+
+.browse-section{
+    padding: 3rem 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #273647;
+}
+
+.browse-title{
+    padding: 1rem 12rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+}
+
+.browse-section .container{
+    color: white;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.browse-section .container .container-top{
+    display: flex;
+    justify-content: center;
+}
+
+.browse-section .container .container-top .browse-content-1{
+    width: 50%;
+}
+
+.browse-section .container .container-top .browse-content-2{
+    width: 50%;
+    padding-top: 2rem;
+}
+
+.input-search{
+    padding: 12px 20px;
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid none;
+    border-radius: 15px;
+    background-color: #525e6c;
+}
+
+.btn-search{
+    margin: 0rem 1rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 1rem;
+    background-color: #446084;
+}
+
+.latest-news{
+    padding: 1rem 12rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+}
+
+.latest-section{
+    padding: 3rem 12rem;
+    display: flex;
+    background-color: #f5f7fb;
+}
+
+.latest-section .container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #aaaaaa;
+}
+
+.latest-section .container .inside-container{
+    width: 30%;
+}
+
+.latest-section .container .box-1 .inside-box-1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1rem 0rem;
+}
+
+.latest-section .container .box-1 .inside-box-1 .phone, .latest-section .container .box-1 .inside-box-1 .email-us{
+    color: red !important;
+    display: flex;
+    font-weight: 600;
+}
+
+.latest-section .container .box-2{
+    display: flex;
+}
+
+.footer-section{
+    color: white;
+    background-color: #273647;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 12rem;
+}
+
+.footer-section .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section .container .footer-media{
+    display: flex;
+    align-items: center;
+    fill: white;
+}
+
+.footer-section .container .footer-boxes{
+    display: flex;
+    align-items: center;
+}
+
+.footer-section .container .footer-boxes .boxes{
+    color: white;
+    margin: 0rem 0.25rem;
+    padding: 0.5rem 1rem;
+    background-color: #525e6c;
+    border-radius: 0.5rem;
+}
+
+/*Class Attributes*/
+.p-temp{
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+
+.fill-svg-to-white{
+    fill: white;
+}
+
+.p-0{
+    padding: 0;
+}
+
+.pt-0{
+    padding-top: 0;
+}
+
+.pb-0{
+    padding-bottom: 0;
+}
+
+.pl-0{
+    padding-left: 0;
+}
+
+.pr-0{
+    padding-right: 0;
+}
+
+.m-0{
+    margin: 0;
+}
+
+.mt-0{
+    margin-top: 0;
+}
+
+.mb-0{
+    margin-bottom: 0;
+}
+
+.ml-0{
+    margin-left: 0;
+}
+
+.mr-0{
+    margin-right: 0;
+}
+
+.m-temp{
+    margin: 0rem 12rem;
+}
+
+.shadow-box{
+    box-shadow: 10px 10px 5px black;
+}
+
+.text-mid{
+    text-align: center;
+}
+
+.none-decoration{
+    text-decoration: none;
+}
+
+.red-font{
+    color: red;
+}
+
+.mt-1{
+    margin-top: 1rem;
+}
